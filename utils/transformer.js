@@ -8,7 +8,8 @@ class Transformer {
             'id': data._id,
             'cuid': data.cuid,
             'message': data.message,
-            'user': data.user
+            'user': data.user,
+            'createdAt': data.dateCreated
         }
     }
 
